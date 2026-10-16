@@ -1,0 +1,96 @@
+.landing-page .lang-switcher {
+      display: inline-flex;
+      background: rgba(18, 35, 47, 0.06);
+      border-radius: 6px;
+      padding: 3px;
+      gap: 2px;
+      margin-left: 15px;
+    }
+
+.landing-page .lang-btn {
+      border: none;
+      background: transparent;
+      padding: 4px 8px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--muted);
+      cursor: pointer;
+      border-radius: 4px;
+      transition: all 180ms ease;
+    }
+
+.landing-page .lang-btn.active {
+      background: var(--blue-deep);
+      color: white;
+    }
+
+.landing-page .guide-modes-section {
+      background: var(--paper);
+      padding: 40px 32px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+.landing-page .guide-container {
+      max-width: 1320px;
+      margin: 0 auto;
+    }
+
+.landing-page .mode-tabs {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 24px;
+    }
+
+.landing-page .mode-tab {
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-bottom: none;
+      border-radius: 8px 8px 0 0;
+      padding: 16px 24px;
+      font-family: "Space Grotesk", sans-serif;
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--muted);
+      cursor: pointer;
+      transition: all 180ms ease;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+.landing-page .mode-tab:hover {
+      color: var(--blue-deep);
+      background: #ffffff;
+    }
+
+.landing-page .mode-tab.active {
+      background: var(--blue-deep);
+      color: #ffffff;
+      border-color: var(--blue-deep);
+    }
+
+.landing-page .mode-badge {
+      font-size: 0.7rem;
+      padding: 2px 6px;
+      border-radius: 4px;
+      background: rgba(18, 35, 47, 0.08);
+    }
+
+.landing-page .mode-tab.active .mode-badge {
+      background: rgba(255, 255, 255, 0.2);
+      color: #ffffff;
+    }
+
+.landing-page .guide-content-section {
+      padding: 60px 32px 100px;
+      background: #ffffff;
+    }
+
+.landing-page .mode-panel {
+      display: none;
+    }
+
+.landing-page .mode-panel.active {
+      display: block;
+    }
