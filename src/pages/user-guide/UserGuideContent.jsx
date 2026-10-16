@@ -139,7 +139,7 @@ export default function UserGuideContent() {
                   </ol>
                 </div>
                 <div id="sidebar-design" style={{ background: "#ffffff", border: "1px solid var(--line)", borderRadius: "8px", padding: "22px", marginBottom: "25px" }}>
-                  <Bi as="h4" es="🧭 La barra lateral del proyecto" en="🧭 The project sidebar" style={{ fontSize: "1.2rem", color: "var(--blue-deep)", marginTop: "0", marginBottom: "12px" }} />
+                  <Bi as="h4" es="Barra lateral del proyecto" en="Project sidebar" style={{ fontSize: "1.2rem", color: "var(--blue-deep)", marginTop: "0", marginBottom: "12px" }} />
                   <Bi as="p" es="Todas las capas del proyecto se gestionan desde la <strong>barra lateral</strong>, situada a la izquierda del mapa. Está organizada en <strong>secciones desplegables</strong> (botón ▾ para plegar/desplegar) y cada sección se divide en <strong>grupos de capas</strong>. El botón <strong>▶️</strong> de la cabecera de cada sección permite lanzar la simulación." en="All project layers are managed from the <strong>sidebar</strong> on the left of the map. It is organised into <strong>collapsible sections</strong> (▾ button to fold/unfold) and each section is split into <strong>layer groups</strong>. The <strong>▶️</strong> button in each section header launches the simulation." style={{ color: "var(--muted)", marginBottom: "16px", fontSize: "0.95rem" }} />
                   <Bi as="h5" es="Grupos de capas" en="Layer groups" style={{ fontSize: "1.05rem", color: "var(--blue-deep)", margin: "0 0 8px" }} />
                   <ul style={{ color: "var(--ink)", lineHeight: "1.6", paddingLeft: "20px", fontSize: "0.9rem", marginBottom: "16px" }}>
